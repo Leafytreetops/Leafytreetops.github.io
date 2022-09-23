@@ -25,11 +25,77 @@
   }
 
   /* Hidden and show menu zoom elements */
-  .hidden {
+  /* Hidden items that appear when being scrolled into view */
+  .hidden .hiddencup {
+    transform: translate(-1000px, 150px);
     opacity: 0;
     transition: 1s;
   }
-  .show {
+  .show .hiddencup {
     opacity: 1;
+    transform: translate(-100px, 150px);
+  }
+  .hidden .hiddenscoop {
+    transform: translate(1000px, 100px);
+    opacity: 0;
+    transition: 1s;
+  }
+  .show .hiddenscoop {
+    opacity: 1;
+    transform: translate(50px, 100px);
+  }
+  .hidden .hiddendrops {
+    transform: translate(-1000px, -30px);
+    opacity: 0;
+    transition: 1s;
+  }
+  .show .hiddendrops {
+    opacity: 1;
+    transform: translate(-165px, -30px);
+  }
+  .hidden .hiddencherry {
+    transform: translate(-170px, 800px);
+    opacity: 0;
+    transition: 1s;
+  }
+  .show .hiddencherry {
+    opacity: 1;
+    transform: translate(-170px, 175px);
+  }
+  .hidden .hiddencream {
+    transform: translate(110px, 800px);
+    opacity: 0;
+    transition: 1s;
+  }
+  .show .hiddencream {
+    opacity: 1;
+    transform: translate(110px, 10px);
+  }
+  .hidden .hiddenbites {
+    transform: translate(-170px, 400px);
+    opacity: 0;
+    transition: 1s;
+  }
+  .show .hiddenbites {
+    opacity: 1;
+    transform: translate(-170px, 80px);
+  }
+  .hidden .hiddenzcookie {
+    transform: translate(40px, 400px);
+    opacity: 0;
+    transition: 1s;
+  }
+  .show .hiddenzcookie {
+    opacity: 1;
+    transform: translate(40px, 180px);
+  }
+  .hidden .hiddenpretzel {
+    transform: translate(-140px, 400px);
+    opacity: 0;
+    transition: 1s;
+  }
+  .show .hiddenpretzel {
+    opacity: 1;
+    transform: translate(-140px, 220px);
   }
 }
