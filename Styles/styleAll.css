@@ -1,0 +1,268 @@
+html {
+  overflow-x: hidden;
+}
+body {
+  margin: 0;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+/* Fonts and text */
+@font-face {
+  font-family: futura;
+  src: url(../fonts/FuturaCondensedBold.otf);
+}
+/* Smallest text */
+.smallest-text p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+/* general text */
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  margin: 25px auto;
+  width: 75%;
+}
+/* All largest text */
+h1 {
+  font-family: futura;
+}
+
+/* Header style */
+.sipco-htext h1 {
+  margin: 0;
+  position: absolute;
+  top: 20vw;
+  left: 50%;
+  font-size: 4rem;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+/* Bold text at the top saying "Custom Drive Thru Soda & Treat Shop" */
+.custom-drive-thru-text h1 {
+  margin: 0;
+  font-size: 2.75rem;
+}
+.custom-drive-thru-text > .blacktext {
+  margin-top: 35px;
+}
+.custom-drive-thru-text > .bluetext {
+  color: #00b3e5;
+}
+
+/* Order Now Call-to-action */
+.CTA_order-now a img {
+  margin: 10px;
+  transition: all 0.5s ease-in-out;
+}
+.CTA_order-now a img:hover {
+  height: 120px;
+  margin: 1.5px;
+}
+
+/* Actions Wrapper */
+.actions-wrapper .acard {
+  padding: 8px;
+}
+.actions-wrapper h1 {
+  font-size: 1.3rem;
+  margin: 0 auto;
+}
+
+.actions-wrapper p {
+  font-size: 0.8rem;
+  margin: 0 auto;
+}
+
+/* Animations for the actions wrapper images */
+.car {
+  transition: 0.5s;
+}
+.acard:hover .car {
+  transform: rotate(-25deg) translate(0px, -10px);
+}
+
+.cup {
+  transition: 0.5s ease-in-out;
+}
+.acard:hover .cup {
+  transform: rotate(35deg);
+}
+
+.cookie {
+  transition: 0.5s;
+}
+.acard:hover .cookie {
+  transform: rotate(360deg);
+}
+
+.smile {
+  transition: 0.5s;
+}
+.acard:hover .smile {
+  transform: rotateX(360deg);
+}
+
+/* menu section */
+.menu-wrapper {
+  margin: 20px;
+}
+
+.menu-border {
+  border-style: dashed;
+  border-width: 3px;
+  border-radius: 3px;
+}
+
+.menu-text {
+  margin-top: 40px;
+  font-size: 1.4rem;
+}
+
+.menu-cards .card {
+  margin: 20px auto;
+  /* padding: 20px; */
+  border-style: solid;
+  border-width: 8px;
+  height: 275px;
+  width: 275px;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-cards .card h1 {
+  font-size: 2rem;
+  margin: 32px auto 20px auto;
+}
+.menu-cards .card p {
+  margin: 2px auto;
+}
+
+.ice h5 {
+  margin-top: 60px;
+}
+h5 {
+  font-style: italic;
+  font-size: 13px;
+}
+
+/* Specifically the Beverage card */
+.beverage {
+  display: flex;
+  flex-direction: column;
+}
+.bev {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: left;
+  margin: 0;
+}
+.bev p {
+  width: 100%;
+  font-size: 1.1rem;
+}
+
+/* Special change to the Mix-ins H1 margin */
+.mix-ins .card-header {
+  margin-bottom: -10px;
+}
+
+/* Images that zoom in on scroll or hover. other style sheets have extra styles */
+.zoom-in img {
+  position: absolute;
+}
+
+/* Swiper */
+.swiper {
+  margin: 40px;
+  background-color: white;
+}
+.swiper-slide {
+  width: auto;
+  height: 100%;
+}
+
+/* Order Now */
+.Banner_order-now {
+  margin-top: -30px;
+}
+
+/* Footer area: Owners headshot, sipco logo, and social media */
+.owners-headshot img {
+  border-radius: 50%;
+
+  padding: 20px;
+}
+
+.sipco-logo img {
+  padding: 10px;
+  height: 80px;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+.social-media img {
+  opacity: 1;
+  height: 24px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+.social-media img:hover {
+  transition: 0.5s;
+  opacity: 50%;
+}
+/* about wrapper */
+.about-wrapper h1 {
+  margin: 40px 10px 10px 10px;
+}
+.about-wrapper p {
+  margin: 15px auto;
+}
+
+/* Locations */
+.locate {
+  margin: 5px 0px;
+  display: flex;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+}
+.loc1 {
+  margin-left: -26px;
+}
+.locate p {
+  font-size: 13px;
+  margin: 15px;
+  width: auto;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Button for scroll to top. The script.js has the hidden/view properties. */
+#scrollTop {
+  display: none;
+  opacity: 50%;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #63d2f1;
+  cursor: pointer;
+  padding: 10px 11px;
+  border-radius: 100%;
+}
+#scrollTop:hover {
+  transition: 0.5s;
+  opacity: 1;
+  background-color: #f32735; /* Add a dark-grey background on hover */
+}
