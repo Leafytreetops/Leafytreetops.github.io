@@ -23,4 +23,13 @@
   .blue-arrow img {
     width: 60vw;
   }
+
+  /* Hidden and show menu zoom elements */
+  .hidden {
+    opacity: 0;
+    transition: 1s;
+  }
+  .show {
+    opacity: 1;
+  }
 }
