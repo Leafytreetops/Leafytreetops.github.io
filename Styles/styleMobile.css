@@ -36,13 +36,13 @@
     transform: translate(-100px, 150px);
   }
   .hidden .hiddenscoop {
-    transform: translate(1000px, 100px);
+    transform: translate(20px, -1000px);
     opacity: 0;
     transition: 1s;
   }
   .show .hiddenscoop {
     opacity: 1;
-    transform: translate(50px, 100px);
+    transform: translate(20px, 100px);
   }
   .hidden .hiddendrops {
     transform: translate(-1000px, -30px);
