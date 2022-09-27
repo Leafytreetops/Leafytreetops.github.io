@@ -5,8 +5,8 @@
   }
   .header .cups-img {
     /* background-image: url(../images/Sipco\ 2\ cups-background1.jpg); */
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-      url(../images/Sipco\ 2\ cups-background1.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url(../images/Sipco\ 2\ cups-background.jpg);
     background-position: 0px -100px;
     background-repeat: no-repeat;
     background-attachment: fixed;
