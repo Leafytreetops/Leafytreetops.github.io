@@ -522,16 +522,6 @@
             prevEl: ".swiper-button-prev",
           },
         });
-        let scrolled;
-        let scrollable;
-        window.addEventListener("scroll", function () {
-          scrollable =
-            document.documentElement.scrollHeight - window.innerHeight;
-          scrolled = window.pageYOffset;
-          if (Math.ceil(scrolled === scrollable)) {
-            alert("You've reached the bottom");
-          }
-        });
       }
     }
   </script>
